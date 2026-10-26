@@ -137,40 +137,6 @@ git clone https://github.com/abdul-wahid022/silent-vector-distributed-mini-os.gi
 cd silent-vector-distributed-mini-os
 ```
 
-## Repository Structure
-
-```
-silent-vector-distributed-mini-os/
-├── README.md
-├── LICENSE
-├── images/
-│   └── banner.png
-├── screenshots/
-│   ├── worker-startup.png
-│   ├── phantom-shell.png
-│   ├── sysinfo.png
-│   ├── tasks.png
-│   ├── topology.png
-│   ├── fault-test-offline.png
-│   ├── live-dashboard.png
-│   └── auto-demo.png
-├── docs/
-│   └── SilentVector.pdf
-├── master/
-│   ├── phantom_shell.py
-│   ├── node_manager.py
-│   └── dashboard.py
-├── worker/
-│   └── worker_node.py
-├── protocol/
-│   └── packet.py
-├── shared/
-│   ├── config.json
-│   └── replay_demo.json
-└── sandbox/
-    └── demo_file.txt
-```
-
 ## License
 
 Shared for educational reference.
