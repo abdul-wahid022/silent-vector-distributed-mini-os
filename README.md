@@ -157,20 +157,6 @@ silent-vector-distributed-mini-os/
 │   ├── live-dashboard.png
 │   └── auto-demo.png
 ├── docs/
-│   └── SilentVector.pdf
-├── master/
-│   ├── phantom_shell.py
-│   ├── node_manager.py
-│   └── dashboard.py
-├── worker/
-│   └── worker_node.py
-├── protocol/
-│   └── packet.py
-├── shared/
-│   ├── config.json
-│   └── replay_demo.json
-└── sandbox/
-    └── demo_file.txt
 ```
 
 ## License
