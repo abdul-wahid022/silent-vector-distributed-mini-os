@@ -89,13 +89,13 @@ Captured while the system was running. The full walkthrough is in the [project r
 
 | | |
 | --- | --- |
-| <img src="./screenshots/worker-startup.png" alt="Worker node startup" width="420"/> | <img src="./screenshots/phantom-shell.png" alt="Phantom Shell command panel" width="420"/> |
+| <img src="./images/worker-startup.png" alt="Worker node startup" width="420"/> | <img src="./images/phantom-shell.png" alt="Phantom Shell command panel" width="420"/> |
 | <sub>Worker node registering as node-2613 on port 9001</sub> | <sub>Phantom Shell with all 14 commands</sub> |
-| <img src="./screenshots/sysinfo.png" alt="sysinfo output" width="420"/> | <img src="./screenshots/tasks.png" alt="tasks output" width="420"/> |
+| <img src="./images/sysinfo.png" alt="sysinfo output" width="420"/> | <img src="./images/tasks.png" alt="tasks output" width="420"/> |
 | <sub>`sysinfo`: node ID, OS, hostname, CPU and RAM</sub> | <sub>`tasks`: running and waiting tasks with progress</sub> |
-| <img src="./screenshots/topology.png" alt="topology output" width="420"/> | <img src="./screenshots/fault-test-offline.png" alt="fault_test with offline node" width="420"/> |
+| <img src="./images/topology.png" alt="topology output" width="420"/> | <img src="./images/fault-test-offline.png" alt="fault_test with offline node" width="420"/> |
 | <sub>`topology`: master node and worker status</sub> | <sub>`fault_test`: offline node detected, tasks marked for reassignment</sub> |
-| <img src="./screenshots/live-dashboard.png" alt="Live dashboard" width="420"/> | <img src="./screenshots/auto-demo.png" alt="auto_demo output" width="420"/> |
+| <img src="./images/live-dashboard.png" alt="Live dashboard" width="420"/> | <img src="./images/auto-demo.png" alt="auto_demo output" width="420"/> |
 | <sub>`dashboard`: live CPU and RAM bars</sub> | <sub>`auto_demo`: ping to task migration in five steps</sub> |
 
 ## Tech Stack
