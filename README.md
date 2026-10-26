@@ -11,6 +11,7 @@
   <img src="https://img.shields.io/badge/ARCHITECTURE-MASTER--WORKER-0d1117?style=for-the-badge&labelColor=0d1117&color=00b4d8" alt="Architecture"/>
   <img src="https://img.shields.io/badge/PROTOCOL-TCP-0d1117?style=for-the-badge&labelColor=0d1117&color=00b4d8" alt="Protocol"/>
   <img src="https://img.shields.io/badge/STATUS-COMPLETE-0d1117?style=for-the-badge&labelColor=0d1117&color=00b4d8" alt="Status"/>
+  <img src="https://img.shields.io/badge/LICENSE-MIT-0d1117?style=for-the-badge&labelColor=0d1117&color=00b4d8" alt="License"/>
 </p>
 
 <p align="center">
@@ -19,7 +20,8 @@
   <a href="#commands"><b>Commands</b></a> ·
   <a href="#screenshots"><b>Screenshots</b></a> ·
   <a href="#build--run"><b>Run</b></a> ·
-  <a href="#repository-structure"><b>Structure</b></a>
+  <a href="#repository-structure"><b>Structure</b></a> ·
+  <a href="#license"><b>License</b></a>
 </p>
 
 ---
@@ -38,6 +40,7 @@ The name reflects the design: the master node silently monitors every worker, co
 | **Protocol** | Custom packet layer with JSON payloads and checksum validation |
 | **Configuration** | Node list in `shared/config.json` |
 | **Logging** | Structured JSON audit log |
+| **License** | MIT |
 | **Purpose** | Educational project on distributed systems concepts |
 
 ## Features
@@ -112,6 +115,13 @@ Captured while the system was running. The full walkthrough is in the [project r
 
 Python 3 is required on every machine, and the master must be able to reach the workers over the network.
 
+Clone the repository:
+
+```bash
+git clone https://github.com/abdul-wahid022/silent-vector-distributed-mini-os.git
+cd silent-vector-distributed-mini-os
+```
+
 1. Start one or more worker nodes, each on its own terminal or machine:
 
 ```bash
@@ -130,16 +140,42 @@ python3 worker/worker_node.py <port>
 python3 master/phantom_shell.py
 ```
 
-Clone the repository first:
+## Repository Structure
 
-```bash
-git clone https://github.com/abdul-wahid022/silent-vector-distributed-mini-os.git
-cd silent-vector-distributed-mini-os
+```
+silent-vector-distributed-mini-os/
+├── README.md
+├── LICENSE
+├── images/
+│   ├── banner.png
+│   ├── worker-startup.png
+│   ├── phantom-shell.png
+│   ├── sysinfo.png
+│   ├── tasks.png
+│   ├── topology.png
+│   ├── fault-test-offline.png
+│   ├── live-dashboard.png
+│   └── auto-demo.png
+├── docs/
+│   └── SilentVector.pdf
+├── master/
+│   ├── phantom_shell.py
+│   ├── node_manager.py
+│   └── dashboard.py
+├── worker/
+│   └── worker_node.py
+├── protocol/
+│   └── packet.py
+├── shared/
+│   ├── config.json
+│   └── replay_demo.json
+└── sandbox/
+    └── demo_file.txt
 ```
 
 ## License
 
-Shared for educational reference.
+**© 2026 Abdul Wahid**. Released under the [**MIT License**](./LICENSE). You may use, copy, modify and distribute this code, including commercially, as long as the copyright notice and license text are kept with it. The software is provided as is, without warranty.
 
 ## Contact
 
